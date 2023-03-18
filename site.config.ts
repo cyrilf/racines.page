@@ -43,7 +43,9 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/v1': '82533e5ead8446558f6b464decbae56b'
+    '/v1': '82533e5ead8446558f6b464decbae56b',
+    '/en': 'db1e2cde30544f28a179103a591d4cd8',
+    '/soutien': '57a24469ca6f4b8f84bee1bc8eb3a74f'
   },
   //pageUrlOverrides: null,
 

@@ -79,6 +79,8 @@ export const PageHead: React.FC<
         title={site?.name}
       />
 
+      <script src="https://swetrix.org/swetrix.js" defer></script>
+
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>

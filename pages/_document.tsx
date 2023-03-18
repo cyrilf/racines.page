@@ -64,6 +64,21 @@ export default class MyDocument extends Document {
             <Main />
 
             <NextScript />
+            <script dangerouslySetInnerHTML={{
+              __html: `document.addEventListener('DOMContentLoaded', function() {
+                swetrix.init('nswMMMAjaF7c');
+                swetrix.trackViews();
+              });`,
+            }}>
+            </script>
+
+            <noscript>
+              <img
+                src="https://api.swetrix.com/log/noscript?pid=nswMMMAjaF7c"
+                alt=""
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </noscript>
           </body>
         </Html>
       </IconContext.Provider>
